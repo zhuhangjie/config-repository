@@ -1,0 +1,17 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Zhuhangjie_1
+    url: jdbc:mysql://106.14.3.142:3306/sell?characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+server:
+  port: 8090
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
