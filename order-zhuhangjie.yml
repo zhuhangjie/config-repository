@@ -10,5 +10,5 @@ server:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-env: dev2
+env: zhuhangjie
 label: master
