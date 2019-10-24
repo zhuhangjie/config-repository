@@ -16,3 +16,4 @@ PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 label: zhuhangjie
+env: dev
