@@ -9,5 +9,5 @@ server:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-env: zhuhangjie
+env: test
 label: master
