@@ -6,7 +6,7 @@ spring:
     password: Zhuhangjie_1
     url: jdbc:mysql://106.14.3.142:3306/sell?characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
   rabbitmq:
-    host: http://106.14.3.142
+    host: 106.14.3.142
     port: 5672
     username: guest
     password: guest
