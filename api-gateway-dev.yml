@@ -1,12 +1,10 @@
 zuul:
   routes:
-    firsr:
+    first:
       path: /zhuhangjie/**
       serviceId: product
       sensitiveHeaders:
-    #product: /zhuhangjie2/**
   ignored-patterns:
-    #- /**/product/list
 management:
   security:
     enabled: false
