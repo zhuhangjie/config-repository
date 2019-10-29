@@ -4,6 +4,10 @@ zuul:
       path: /zhuhangjie/**
       serviceId: product
       sensitiveHeaders:
+    second:
+      path: /userinfo/**
+      serviceId: user
+      sensitiveHeaders:
   ignored-patterns:
 management:
   security:
