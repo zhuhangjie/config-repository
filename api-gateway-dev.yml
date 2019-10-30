@@ -8,3 +8,7 @@ zuul:
 management:
   security:
     enabled: false
+spring:
+  redis:
+    host: 106.14.3.142
+    port: 6379
